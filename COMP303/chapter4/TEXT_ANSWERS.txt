@@ -1,0 +1,5 @@
+1. There is only one concrete state from the life cycle of an Card object. After a Card object is created by the constructor, there is no method
+to modify its fields, thus its state will not change.
+
+2. It does not make sense to model the abstract state space of a Java interface because the interface does not has any object and will not store 
+any value itself.
